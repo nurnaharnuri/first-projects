@@ -7,53 +7,61 @@
 }
 
 body{
-    background-color: lightcyan;
     font-family: 'Roboto', sans-serif;
 }
 
+/* share styles */
 
 .container{
     max-width: 1200px;
 }
 
-nav{
-    background-color: grey;
+.btn-primary{
+    padding: 20px 25px;
+    margin-top: 32px;
 }
 
-.menus{
+.banner{
+    background-image: url(./assets/images/banner/banner3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
-    padding: 10px;
-}
-
-
-.menu-items{
-    display: flex;
-    list-style: none;
-
-}
-
-.menu-items a{
-    text-decoration: none;
-    margin-left: 15px;
-}
-
-.about-section{
-    display: flex;
+    text-align: right;
+    color: #fff;
     
 }
 
+.banner-items{
+    padding-right: 70px;
+}
 
-img{
-    width: 400px;
-    height: 400pxb ;
+.banner h1{
+    padding-top: 216px;
+    max-width: 500px;
+    font-size: 65px;
+  
 }
-.btn{
-    background-color: blue;
-    color: white;
-    border: none;
-    padding: 10px 15px;
-    border-radius: 5px;
-    font-weight: 700;
+.banner p{
+   
+    max-width: 500px;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 30px;
+  
 }
+.banner button{
+    color: #005FAC;
+    text-align: right;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 100px;
+}
+ 
+
+
+
+
+
