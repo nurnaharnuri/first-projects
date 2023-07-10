@@ -19,7 +19,22 @@ body{
 .btn-primary{
     padding: 20px 25px;
     margin-top: 32px;
+    cursor: pointer;
 }
+
+.section-title{
+    color:  #151414;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.description{
+    color: #444343;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+/* banner styles */
 
 .banner{
     background-image: url(./assets/images/banner/banner3.png);
@@ -52,7 +67,7 @@ body{
     margin-top: 30px;
   
 }
-.banner button{
+ button{
     color: #005FAC;
     text-align: right;
     font-size: 20px;
@@ -62,6 +77,133 @@ body{
  
 
 
+/* about section */
+.about-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 140px;
+}
+.about-section h2{
+    max-width: 280px;
+}
+.about-section p{
+    color: #444343;
+    max-width: 416px;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+.about-section ul li{
+    list-style: none;
+    color: #444343;
+}
+.about-section ul li svg{
+   margin-top: 5px;
+}
 
 
+.plan-section .section-title{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
 
+.my-plans{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.my-plans h3{
+    color:  #151414;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 24px;
+}
+.my-plans p{
+    color: #737272;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 16px;
+}
+
+
+.watch{
+    background-image: url(./assets/images/gradient1.png), url(./assets/images/watch.png);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat;
+   margin: 135px ;
+   padding-left: 80px;
+  
+   
+}
+
+
+.watch h2{
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    
+}
+
+footer{
+    background-color: #151414;
+}
+
+.footer-section{
+    display: flex;
+    justify-content: space-around;
+    padding: 130px 0;
+}
+
+footer h3{
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 16px;
+
+}
+
+footer p{
+    color: #FFF;
+    font-size: 16px;
+    line-height: 26px;
+    width: 485px;
+} 
+
+footer .contact{
+margin-top: 30px;
+}
+
+.footer-icons{
+    display: flex;
+    
+}
+
+.footer-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    margin-top: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+#email{
+    padding: 20px;
+    display: block;
+    background: none;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+footer button{
+    color: #F15B22;
+    cursor: pointer;
+}
